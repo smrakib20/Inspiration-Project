@@ -12,6 +12,11 @@ html {
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0%;
+  transition: transform 0.5s ease;
+}
+.nav-title:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
 }
 .nav-title a {
   color: rgba(13, 19, 33, 1);
@@ -60,6 +65,10 @@ ul li a {
   border-radius: 5px;
   margin: 20px;
   cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.C-btn:hover {
+  transform: scale(1.1);
 }
 
 /* body section  */
