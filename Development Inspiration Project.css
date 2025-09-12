@@ -2,8 +2,16 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  margin: 0px;
+}
+header {
+  width: 100%;
+}
 .nav-section {
+  width: calc(100%-0px);
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 .nav-title {
@@ -40,6 +48,7 @@ ul li a {
   cursor: pointer;
 }
 .headers-section {
+  width: calc(100%-0px);
   background-image: url(assets/Hero-bg.png);
   background-size: cover;
   display: flex;
@@ -48,8 +57,9 @@ ul li a {
   height: 752px;
 }
 .headers-main-section {
-  width: 500px;
+  width: 600px;
   text-align: center;
+  justify-content: center;
 }
 
 .text-color {
@@ -73,6 +83,7 @@ ul li a {
 
 /* body section  */
 .body-main-section {
+  width: calc(100%-0px);
   background-color: rgba(247, 247, 245, 0.7);
   padding: 75px 90px 75px 90px;
   margin: 75px;
@@ -132,9 +143,10 @@ a {
   margin: 75px;
   gap: 30px;
   height: fit-content;
+  width: calc(100%-0px);
 }
 .-head {
-  padding: 0px 150px;
+  width: 100%;
   align-items: center;
   text-align: center;
 }
@@ -147,6 +159,7 @@ a {
 /* current-terget */
 
 .current-terget {
+  width: calc(100%-0px);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -197,6 +210,7 @@ a {
 
 /* next-terget */
 .next-terget {
+  width: calc(100%-0px);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -207,7 +221,7 @@ a {
   flex-direction: column;
   gap: 20px;
 }
-.first-n {
+.n {
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -218,29 +232,9 @@ a {
   height: 160px;
 }
 
-.second-n {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  border: 1px solid rgb(190, 188, 188);
-  border-radius: 10px;
-  padding: 30px;
-  width: auto;
-  height: 160px;
-}
-
-.third-n {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  border: 1px solid rgb(190, 188, 188);
-  border-radius: 10px;
-  padding: 30px;
-  width: auto;
-  height: 160px;
-}
 /* support-section */
 .support-section {
+  width: calc(100%-0px);
   background-image: url(assets/handshake.jpg);
   background-size: cover;
   background-position: center;
@@ -267,12 +261,14 @@ input[type="text"] {
 }
 button[type="submit"] {
   padding: 8px 20px;
+  margin: 5px;
   border-radius: 10px;
   color: black;
   font-weight: 600;
 }
 /* footer */
 .footter {
+  width: calc(100%-0px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

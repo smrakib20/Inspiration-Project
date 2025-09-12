@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Development Inspiration Project</title>
     <link rel="stylesheet" href="Development Inspiration Project.css" />
+    <link rel="stylesheet" href="@media.css" />
   </head>
   <body>
     <header>
@@ -15,7 +16,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="d-btn">
           <button class="Download-btn">Download Resume</button>
         </div>
       </nav>
@@ -48,7 +49,7 @@
     <main>
       <div class="body-section">
         <div class="body-main-section">
-          <div class="head">
+          <div class="-head">
             <h1>Why Web Development</h1>
             <p class="text-color">
               Web development is essential for businesses to establish an online
@@ -66,9 +67,9 @@
               </p>
               <button class="b-btn">learn more</button>
             </div>
-            <div><img src="assets/Layer_1.png" alt="" /></div>
+            <div class="first-img"><img src="assets/Layer_1.png" alt="" /></div>
           </div>
-          <div class="second b">
+          <div class="second b" id="second-b">
             <div><img src="assets/Group 3.png" alt="" /></div>
             <div class="b-text b-text-second">
               <h3>I will help People by creating Modern Web System</h3>
@@ -106,6 +107,7 @@
         </div>
         <div class="iframe">
           <iframe
+            id="iframe"
             width="960"
             height="615"
             radius="10px"
@@ -129,7 +131,7 @@
             </p>
           </div>
           <div class="current-body">
-            <div class="first-b">
+            <div class="first-b" id="ct">
               <img src="assets/html.png" alt="" />
               <div class="c-text">
                 <h1>HTML</h1>
@@ -141,7 +143,7 @@
                 <a href="">learn more</a>
               </div>
             </div>
-            <div class="second-b">
+            <div class="second-b" id="ct">
               <img src="assets/css.png" alt="" />
               <div class="c-text">
                 <h1>CSS</h1>
@@ -154,7 +156,7 @@
                 <a href="">learn more</a>
               </div>
             </div>
-            <div class="third-b">
+            <div class="third-b" id="ct">
               <img src="assets/js.png" alt="" />
               <div class="c-text">
                 <h1>JavaScript</h1>
@@ -176,8 +178,8 @@
             </p>
           </div>
           <div class="next-body">
-            <div class="first-n">
-              <img src="assets/react.png" alt="" />
+            <div class="first- n" id="nt">
+              <div><img src="assets/react.png" alt="" /></div>
               <div class="c-text">
                 <h3>React Js</h3>
                 <p>
@@ -187,8 +189,8 @@
                 <a href="#">learn more</a>
               </div>
             </div>
-            <div class="second-n">
-              <img src="assets/nodejs.png" alt="" />
+            <div class="second- n" id="nt">
+              <div><img src="assets/nodejs.png" alt="" /></div>
               <div class="c-text">
                 <h3>Node JS</h3>
                 <p>
@@ -198,8 +200,8 @@
                 <a href="#">learn more</a>
               </div>
             </div>
-            <div class="third-n">
-              <img src="assets/mongodb.png" alt="" />
+            <div class="third- n" id="nt">
+              <div><img src="assets/mongodb.png" alt="" /></div>
               <div class="c-text">
                 <h3>MongoDB</h3>
                 <p>
@@ -214,7 +216,7 @@
       </div>
       <!-- support-section -->
       <div id="Contact" class="support-section">
-        <div class="-head">
+        <div class="-head" id="support-head">
           <h1>I Need Support</h1>
           <p>
             I need proper guidance to become a skilled full-stack web developer.
